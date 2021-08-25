@@ -7,11 +7,12 @@ def isprime(n):
     for x in range(2, n):
         if n % x == 0:
             return False
-    else:
-        return True
+    return True
 
-for n in range(100):
+print()
+
+for n in range(333):
     if isprime(n):
         print(f'{n}', end= ' ', flush=True )
  
-
+print()
