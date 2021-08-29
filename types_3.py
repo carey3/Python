@@ -1,6 +1,17 @@
 #!/usr/bin/env python3
 # Copyright 2009-2017 BHG http://bw.org/
 
+x = [1, 2, 3, 4, 5]
+print(f'x is {format(x)} and type {type(x)}')
+if isinstance(x, tuple):
+    print('is a tuple')
+elif isinstance(x, list): 
+    print('is a list')
+elif isinstance(x,dictionary): 
+    print('is a dictionary')
+else:
+    print('is not a built in type')
+
 x = 7
 print(f'x is {format(x)} and type {type(x)}')
 
