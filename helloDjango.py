@@ -1,12 +1,12 @@
-#!/c/Users/carey/AppData/Local/Microsoft/WindowsApps/python
+##!/c/Users/carey/AppData/Local/Microsoft/WindowsApps/python
 import django
 import os
 
 projectname = 'HelloDjango'
 print('projectname is ',projectname)
-inputName = input("enter a different project name or hit cr to keep the default name:")
-if(inputName != ""):
-    projectname = inputName
+#inputName = input("enter a different project name or hit cr to keep the default name:",projectname)
+#if(inputName != ""):
+#    projectname = inputName
 print('OK projectname is ',projectname)
 
 pname = 0
@@ -155,4 +155,3 @@ print('http://localhost:8080/')
 """
 #os.systme('python ',projectname,'/manage.py runserver 8080')
 #os.system('python Pysite/manage.py runserver 8080')
-
